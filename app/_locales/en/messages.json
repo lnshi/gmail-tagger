@@ -1,11 +1,11 @@
 {
   "appName": {
     "message": "Gmail Tagger",
-    "description": "Help to tag your Gmail inbox email conversations list as you wish."
+    "description": "This extension helps you to use Gmail more efficiently by letting you tag your emails as you wish."
   },
   "appDescription": {
-    "message": "This Google Chrome extension helps you to tag your Gmail inbox email conversations list as you wish.",
-    "description": "This Google Chrome extension helps you to tag your Gmail inbox email conversations list as you wish."
+    "message": "This extension helps you to use Gmail more efficiently by letting you tag your emails as you wish.",
+    "description": "This extension helps you to use Gmail more efficiently by letting you tag your emails as you wish."
   }
 }
 
