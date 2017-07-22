@@ -1,0 +1,120 @@
+input, button {
+  outline: none;
+}
+
+.GMAIL_TAGGER-handle {
+  display: none;
+
+  position: absolute;
+
+  right: 45px;
+  top: 50%;
+  transform: translateY(-50%);
+
+  width: 16px;
+  height: 8px;
+  background: #f4f4f4;
+  border-color: #777777;
+  border-style: solid;
+  border-width: 2px 2px 9px 2px;
+  border-radius: 100%;
+}
+
+.GMAIL_TAGGER-handle:before {
+  position: absolute;
+
+  content: "";
+  top: 50%;
+  left: 0;
+  background: #f4f4f4;
+  border: 3px solid #777777;
+  border-radius: 100%;
+  width: 2px;
+  height: 2px;
+}
+
+.GMAIL_TAGGER-handle:after {
+  position: absolute;
+
+  content: "";
+  top: 50%;
+  left: 50%;
+  background: #777777;
+  border: 3px solid #f4f4f4;
+  border-radius:100%;
+  width: 2px;
+  height: 2px;
+}
+
+.GMAIL_TAGGER-popup {
+  display: none;
+
+  position: absolute;
+  z-index: 999999;
+  top: -40px;
+  left: 96px;
+
+  width: 160px;
+  padding: 5px;
+  text-align: center;
+  background-color: #777777;
+  border: 1px solid #777777;
+  border-radius: 3px;
+}
+
+.GMAIL_TAGGER-popup .GMAIL_TAGGER-arrow {
+  position: absolute;
+  top: 30px;
+  left: 63px;
+
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 12px solid #777777;
+}
+
+.GMAIL_TAGGER-tag {
+  width: 100px;
+  height: 20px;
+  padding: 0 5px;
+  font-size: 80%;
+  line-height: 20px;
+  border: 2px solid #ffffff;
+  border-radius: 2px 0 0 2px;
+}
+
+.GMAIL_TAGGER-save {
+  height: 24px;
+  margin: 1px 0 0 -5px;
+  background-color: #cccccc;
+  cursor: pointer;
+  border: 2px solid #cccccc;
+  border-top-width: 0;
+  border-radius: 0 2px 2px 0;
+  font-weight: bold;
+}
+
+.GMAIL_TAGGER-tag-label {
+  display: none;
+
+  position: absolute;
+  width: 80px;
+  overflow: hidden;
+
+  right: 0;
+  top: 50%;
+  transform: translateY(-53%);
+
+  font-size: 90%;
+  font-weight: bold;
+  text-align: left;
+  color: #21A722;
+
+  cursor: pointer;
+
+  padding: 5px 3px 5px 9px;
+  background-color: #f4f4f4;
+}
+
+
