@@ -22,11 +22,11 @@
 
 - After you added this extension to your chrome, then refresh the Gmail inbox page you will see:
 
-  - <img src="screenshots/email_with_new_label_1280X800.png"/>
+  - <img src="screenshots/email_with_new_label_1280x800.png"/>
 
 - Click on the **_Yin and Yan** icon_, you will be able to add tag, as follows:
 
-  - <img src="screenshots/GmailTagger_promotion_large_title_920X680.png"/>
+  - <img src="screenshots/GmailTagger_promotion_large_title_920x680.png"/>
 
 ## Why build this extension?
 

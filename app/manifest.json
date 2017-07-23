@@ -1,7 +1,7 @@
 {
   "name": "__MSG_appName__",
   "short_name": "__MSG_appName__",
-  "version": "1.5",
+  "version": "1.6",
   "manifest_version": 2,
   "description": "__MSG_appDescription__",
   "default_locale": "en",
@@ -10,7 +10,11 @@
   "author": "leonard.shi.sg@gmail.com",
 
   "icons": {
-    "128": "icons/icon128.png"
+    "128": "icons/icon_128x128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icons/icon_32x32.png"
   },
 
   "content_scripts": [
